@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: reaction_anim.ma
-//Last modified: Wed, Mar 04, 2026 11:16:10 AM
+//Last modified: Fri, Mar 06, 2026 01:39:07 PM
 //Codeset: 1252
 file -rdi 1 -ns "Ultimate_Bony_v1_0_5" -rfn "Ultimate_Bony_v1_0_5RN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/solan/OneDrive/Documents/GitRepos/UVU_DAGV_Portfolio/MayaProject/MayaProject_2_Animation/Ultimate_Bony_v1.0.5.ma";
@@ -22,7 +22,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202505300603-a12e894a3d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "BBBA80B2-4AC1-45D4-4DA8-BAA0FCB4AA6A";
+fileInfo "UUID" "64E985FF-4622-AE7D-A113-F29FF0C31B94";
 createNode transform -s -n "persp";
 	rename -uid "3DDEE54D-4F14-3534-F9E7-72AC2F7E813E";
 	setAttr ".v" no;
@@ -17073,7 +17073,7 @@ createNode aiAreaLight -n "aiAreaLightShape4" -p "aiAreaLight4";
 	setAttr ".ai_translator" -type "string" "quad";
 	setAttr ".aal" -type "attributeAlias" 4 "exposure" "aiExposure" "normalize" "aiNormalize" ;
 createNode fosterParent -n "Ultimate_Bony_v1_0_5RN1fosterParent1";
-	rename -uid "D2557ECE-42C2-FBD2-B60E-FD8040B150B5";
+	rename -uid "5B21307A-4280-FD9A-43AB-F2AC992378EB";
 createNode transform -n "Headphones1" -p "Ultimate_Bony_v1_0_5RN1fosterParent1";
 	rename -uid "1843C4E7-4179-EB4B-A108-80B29C4847F1";
 	setAttr ".rp" -type "double3" -7.6479528574102673 7.8528734538729648 -16.69531167943142 ;
@@ -20681,11 +20681,11 @@ createNode mesh -n "Headphones1Shape" -p "Headphones1";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".dr" 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "E20CBCE8-43E6-3AF1-2AD2-6880920F23D2";
+	rename -uid "1A809C9E-45FB-9742-2AEB-D9B7077BF2A9";
 	setAttr -s 20 ".lnk";
 	setAttr -s 20 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "7E7E1B07-49C4-C9F9-AAD2-F09BCB288B97";
+	rename -uid "4D60D590-45A6-2D4F-CB98-5DB683F502FE";
 	setAttr ".cdl" 3;
 	setAttr -s 5 ".dli[1:4]"  4 1 2 3;
 	setAttr -s 5 ".dli";
@@ -20693,17 +20693,17 @@ createNode displayLayer -n "defaultLayer";
 	rename -uid "6D542A27-4B7B-59D8-2B3F-06B184BFD8DC";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "4E4C51EF-4C93-596B-53E6-DF93F9D667A1";
+	rename -uid "7423222E-46C1-2B17-76C2-D3889595CA3C";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "78A78604-40E8-55E3-9488-8B8AB2084805";
 	setAttr ".g" yes;
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "15E72A8E-4E6B-D5C2-F9DD-14BE77448D96";
+	rename -uid "CA5D05B1-4079-2354-9738-A28C9CCC2B4B";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 2 0 1 ;
 	setAttr -s 2 ".bspr";
 	setAttr -s 2 ".obsv";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "86ED8ADD-4634-53A5-17C8-E4BB2D21AC60";
+	rename -uid "E0DC563E-4392-5662-027E-D2BDFB60CBFA";
 createNode reference -n "Ultimate_Bony_v1_0_5RN";
 	rename -uid "9D95B248-4FAD-7BFC-0848-DAB061118370";
 	setAttr -s 89 ".phl";
@@ -25587,8 +25587,8 @@ createNode aiAOV -n "aiAOV_shadow_matte";
 	rename -uid "CF9E5B69-4E2B-AEB4-B766-6A80ECA1C971";
 	setAttr ".aovn" -type "string" "shadow_matte";
 select -ne :time1;
-	setAttr ".o" 85;
-	setAttr ".unw" 85;
+	setAttr ".o" 275;
+	setAttr ".unw" 275;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
